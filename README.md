@@ -2,6 +2,7 @@
 Proyecto NLP mensajes de odio en Youtube
 
 Hemos creado un modelo que analiza un texto y predice si este es tóxico o no y siendo este tóxico, clasifica de que tipo de toxicidad se trata. Tanto el tratamiento de los datos como la creación del modelo se realiza en el cuaderno de Jupyter Lab que figura en el repositorio.
+Las librerias utilizadas son: Pandas, Tnsorflow, Numpy y Gradio.
 
 Para esto utilizamos una red neuronal recurrente de nombre LSTM (Long-Short Term Memory), y creamos una visulización utilizando Gradio.
 
