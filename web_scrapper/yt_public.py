@@ -49,7 +49,7 @@ def commet_threads(videoID, to_csv=True):
 
 
 def main():
-    commet_threads(" ID DEL VIDEO A BUSCAR ", to_csv=True)
+    commet_threads("5vF4si3hoRA", to_csv=True)
 
 if __name__ == "__main__":
     main()

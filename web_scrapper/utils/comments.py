@@ -12,6 +12,8 @@ def process_commets(response_items, csv_output=False):
         comment = {}
         comment['CommentId'] = res['snippet']['topLevelComment']['id']
         comment['VideoId'] = res['snippet']['topLevelComment']['snippet']['videoId']
+        comment['CommentDate'] = res['snippet']['topLevelComment']['snippet']['publishedAt']
+        comment['CommentLikes'] = res['snippet']['topLevelComment']['snippet']['likeCount']
         comment['Text'] = res['snippet']['topLevelComment']['snippet']['textOriginal']
 
         comments.append(comment)
